@@ -1,0 +1,122 @@
+
+<html>
+
+<head>
+    <title>Flask Portfolio |  Anthony & Ryan  </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<!this is the template that we used, Line 22-25 you can see the header titles thatwere changed to fit our portfolio and website. This is evidence of bootstrap->
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link disabled" href="#">Projects/Directory</a>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+
+    <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+
+        <div class="col-2" style="text-align: right;">
+            <h5>Wilson and Shay</h5>
+
+            <a href="https://github.com/valeriemiliteeva" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://twitter.com/NighthawkCoding" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+
+    </div>
+
+
+
+    <div class="product" style="margin-top: 5%;">
+        <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+
+            <div class="col-8" >
+                <h1>Our Project Site</h1>
+            </div>
+
+        </div>
+
+        <div class="row" style="padding-left: 10%;">
+            <div class="col-4">
+                <a href="https://padlet.com/anthonyw54465/r33ggkw4i7o9xumt" class="btn"> Anthony's OLD Project Padlet</a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://repl.it/@ValerieMiliteev/SnakeProj" class="btn">Anthony's Snake  Game</a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://docs.google.com/document/d/1oTYMisS0O6dG_KyUqtiNz9E98gAJgQ3APdqvI6H1dJ0/edit" class="btn">NEW Project Plan</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="product" style="margin-top: 5%;">
+        <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+
+            <div class="col-8" >
+                <h1>Our Journals and Repl.it's</h1>
+            </div>
+
+        </div>
+
+        <div class="row" style="padding-left: 10%;">
+            <div class="col-4">
+                <a href="https://docs.google.com/document/d/1r24o5Mn8sB7Cx3rtCBJInbT9cBf5OiFCpAZiE3mUQA0/edit?usp=sharing" class="btn">Ryan's Journal</a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://padlet.com/anthonyw54465/r33ggkw4i7o9xumt" class="btn">Anthony and Michael's Journal</a>
+            </div>
+
+            <div class="col-4">
+                <a href="https://docs.google.com/document/d/1Q5B40LEbfqsIJWLMMTFVfC43pNvk8sK_ImGj59SZMlQ/edit" class="btn">Our New Journal</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename= 'vanta.fog.min.js') }}"></script>
+<script>
+  VANTA.FOG({
+    el: "body",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    highlightColor: 0x63ebd4,
+    midtoneColor: 0x3f7bc,
+    lowlightColor: 0x321ff,
+    baseColor: 0xffffff,
+    blurFactor: 0.53,
+    speed: 4.00,
+    zoom: 0.90
+    })
+  </script>
+
+</html>
