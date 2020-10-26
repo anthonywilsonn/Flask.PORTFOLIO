@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f05ebb-d055-424d-bf31-e41e47cc9928" name="Default Changelist" comment="Anthony Wilson">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/main.py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="76f05ebb-d055-424d-bf31-e41e47cc9928" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +47,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603746084208</updated>
     </task>
+    <task id="LOCAL-00001" summary="Anthony Wilson">
+      <created>1603748196283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748196283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -71,6 +71,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603746216403" />
+    <state x="735" y="94" key="CommitChangelistDialog2" timestamp="1603748194550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="735" y="94" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603748194550" />
     <state x="832" y="262" key="FileChooserDialogImpl" timestamp="1603746478988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -87,6 +91,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603746225967" />
+    <state x="700" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603748363332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603748363332" />
     <state x="708" y="242" key="run.anything.popup" timestamp="1603746203671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
